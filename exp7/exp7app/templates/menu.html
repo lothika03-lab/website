@@ -1,0 +1,100 @@
+<html>
+    <head>
+        <title>resturant</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+            .container 
+{
+  		display: flex;
+  		flex-wrap: wrap;
+  		justify-content: center;
+  		gap: 20px;
+        left :20px;
+}
+.card 
+{
+  		width: 300px;
+        height: 45%;
+  		background-color:blanchedalmond;
+        border: 1px solid blanchedalmond;
+  		margin: 10px;
+        padding-top: 25px;
+  		border-radius: 20px;
+  		box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  		text-align: center;
+  		transition: transform 0.2s;
+        color: rgb(133, 40, 40);
+        font-style: italic;
+}
+.card img
+{
+    top:15px;
+    width:300;
+	height: 200px;
+}
+.card h3
+{
+	color:  rgb(133, 40, 40);
+}
+.mybutton:hover
+{
+	background-color: greenyellow;
+}
+.mybutton
+{
+	color: rgb(133, 40, 40);
+	background-color: blanchedalmond;
+	border: 1px solid black;
+	padding-top: 2px;
+	padding-bottom: 5px;
+}
+.cart
+{
+	padding:5px;
+}
+        </style>
+    </head>
+    <body style="background-color:rgb(253, 244, 230); font-style: italic;color:  rgb(133, 40, 40);">
+        <center>
+        <h1>Menu</h1>
+        </center>
+        <div class="container">
+            <div class="card">
+                <img src="../static/pizza.png">
+                <h3>Margherita Pizza</h3>
+                <p><B>Freshly Baked Pizza </B>with San Marzano tomatoes, fresh mozzarella, fresh basil, and extra virgin olive oil.</p>
+                <h3>150 Rs.</h3>
+                <div class="cart">
+                <button class="myButton" type="button">Add To Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../static/burger.png">
+                <h3>Zinger Burger</h3>
+                <p><b>Zinger Burger</b> with crispy, spicy chicken fillet, fresh lettuce, and creamy mayonnaise on a soft bun</p>
+                <h3>140 Rs.</h3>
+                <div class="cart">
+                <button class="myButton" type="button">Add To Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../static/salad.png">
+                <h3>Greek Salad</h3>
+                <p><b>Greek Salad </b>with refreshing mix of vegitables, Kalamata olives, and feta cheese, seasoned with oregano and drizzled with olive oil</p>
+                <h3>100 Rs.</h3>
+                <div class="cart">
+                <button class="myButton" type="button">Add To Cart</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../static/salmond.png">
+                <h3>Grilled Salmond</h3>
+                <p>Experience a <B>Healthy Grilled Salmond</B> with flavorful dish of tender, flaky fish with a smoky, slightly crispy exterior.</p>
+                <h3>200 Rs.</h3>
+                <div class="cart">
+                <button class="myButton" type="button">Add To Cart</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
