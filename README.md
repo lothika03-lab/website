@@ -471,6 +471,10 @@ menu.html
 ```
 
 # OUTPUT:
+<img width="1920" height="1080" alt="Screenshot (70)" src="https://github.com/user-attachments/assets/3139b38f-4a70-4453-b282-014f971aa5c3" />
+<img width="1920" height="1080" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/eeb70d45-2c40-4736-9cb5-66293d339a68" />
+<img width="1920" height="1080" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/959378fa-1711-41b0-b4bb-a93165f8a7fe" />
+<img width="1920" height="1080" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/53117a6c-6561-47e6-8d24-da82f8d512d0" />
 
 # RESULT:
 The program for designing software company website using HTML and CSS is completed successfully.
